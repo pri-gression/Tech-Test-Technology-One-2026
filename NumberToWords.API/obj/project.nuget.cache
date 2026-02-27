@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TeBbeBND9N8=",
+  "success": true,
+  "projectFilePath": "/Users/pritikaguglani/Desktop/Tecnology One/Tech-Test-Technology-One-2026/NumberToWords.API/NumberToWords.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/pritikaguglani/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/pritikaguglani/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
