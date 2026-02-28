@@ -8,6 +8,10 @@ function App(){
   const [loading, setLoading] = useState(false);
 
   const handleConvert = async () => {
+    // Play a Mario Coin click sound
+    const audio = new Audio('/mario_coin_sound.mp3');
+    audio.volume = 0.5;
+    audio.play();
     setError('');
     setResult('');
     setLoading(true);

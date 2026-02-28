@@ -118,9 +118,9 @@ namespace NumberToWords.API
 
                 finalDollarString += " " + Scale[scaleIndex];
 
-                scaleIndex--;
-
                 }
+                
+                scaleIndex--; 
             }
 
             finalDollarString = finalDollarString.Trim();
