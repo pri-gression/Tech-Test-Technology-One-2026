@@ -1,0 +1,13 @@
+# C# build files
+**/bin/
+**/obj/
+
+# React dependencies
+**/node_modules/
+
+# Mac files
+.DS_Store
+
+# Environment files
+.env
+*.user
