@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 9.0.x
 
     - name: Restore API
-      use: dotnet restore  NumberToWords.API/NumberToWords.API.csproj
+      run: dotnet restore  NumberToWords.API/NumberToWords.API.csproj
 
     - name: Restore Tests
       run: dotnet restore NumberToWords.Tests/NumberToWords.Tests.csproj
