@@ -22,10 +22,10 @@ jobs:
       run: dotnet restore  NumberToWords.API/NumberToWords.API.csproj
 
     - name: Restore Tests
-      run: dotnet restore NumberToWords.Tests/NumberToWords.Tests.csproj
+      run: dotnet restore NumberToWords.Tests/NumbersToWords.Tests.csproj
 
     - name: Build
       run: dotnet build NumberToWords.API/NumberToWords.API.csproj --no-restore
 
     - name: Test
-      run: dotnet test NumberToWords.Tests/NumberToWords.Tests.csproj --no-build --verbosity normal
+      run: dotnet test NumbersToWords.Tests/NumbersToWords.Tests.csproj --no-build --verbosity normal
