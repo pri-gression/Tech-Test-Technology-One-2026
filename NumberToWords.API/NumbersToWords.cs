@@ -140,10 +140,12 @@ namespace NumberToWords.API
             // Combining dollars and cents 
             string result = "";
 
+            string dollarLabel = finalDollarString == "ONE" ? " DOLLAR" : " DOLLARS";
+
             if (finalDollarString == "")
                 finalDollarString = "ZERO";
 
-            result = finalDollarString + " DOLLARS";
+            result = finalDollarString + dollarLabel;
 
             string centLabel = centsValue == 1 ? " CENT" : " CENTS";
             
