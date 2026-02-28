@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToWords.API", "NumberToWords.API\NumberToWords.API.csproj", "{435A0ACB-8862-BADF-AC51-166ACF0828EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{435A0ACB-8862-BADF-AC51-166ACF0828EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435A0ACB-8862-BADF-AC51-166ACF0828EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435A0ACB-8862-BADF-AC51-166ACF0828EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435A0ACB-8862-BADF-AC51-166ACF0828EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55EB0D2A-8C64-4ED3-A7F9-20BCA8C5F49C}
+	EndGlobalSection
+EndGlobal
