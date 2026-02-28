@@ -18,11 +18,14 @@ jobs:
       with:
         dotnet-version: 9.0.x
 
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Restore API
+      use: dotnet restore  NumberToWords.API/NumberToWords.API.csproj
+
+    - name: Restore Tests
+      run: dotnet restore NumberToWords.Tests/NumberToWords.Tests.csproj
 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build NumberToWords.API/NumberToWords.API.csproj --no-restore
 
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test NumberToWords.Tests/NumberToWords.Tests.csproj --no-build --verbosity normal
