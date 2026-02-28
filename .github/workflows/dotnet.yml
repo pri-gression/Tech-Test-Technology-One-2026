@@ -28,4 +28,4 @@ jobs:
       run: dotnet build NumberToWords.API/NumberToWords.API.csproj --no-restore
 
     - name: Test
-      run: dotnet test NumbersToWords.Tests/NumbersToWords.Tests.csproj --no-build --verbosity normal
+      run: dotnet test NumbersToWords.Tests/NumbersToWords.Tests.csproj --verbosity normal
